@@ -1,0 +1,27 @@
+.head-title {
+    text-align: center;
+    color: var(--color-black);
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    /* Fix scroll position when do a pagination */
+    scroll-margin-top: 5rem;
+    h1 {
+        font-family: 'Lexend', sans-serif;
+        font-size: 3rem;
+        font-weight: 900;
+        border-bottom: 2px solid var(--color-black);
+        line-height: 0.1em;
+        span {
+            background: var(--color-background);
+            padding: 0 20px;
+        }
+    }
+    p {
+        margin-top: 10px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.5rem;
+        color: var(--color-gray);
+    }
+}
