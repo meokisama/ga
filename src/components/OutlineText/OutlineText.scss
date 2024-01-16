@@ -1,0 +1,54 @@
+.outlineText {
+    overflow: hidden;
+    h1 {
+        font-weight: 900;
+        font-size: 6vw;
+        padding-bottom: 10rem;
+        margin: 0 auto;
+        text-align: center;
+        text-transform: uppercase;
+        white-space: nowrap;
+        -webkit-text-fill-color: rgba(255, 255, 255, 0.541);
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: rgb(201, 199, 199);
+
+        // -moz-transform: translateX(100%);
+        // -webkit-transform: translateX(100%);
+        // transform: translateX(100%);
+        // -moz-animation: my-animation 15s linear infinite;
+        // -webkit-animation: my-animation 15s linear infinite;
+        // animation: my-animation 15s linear infinite;
+    }
+}
+
+// @-moz-keyframes my-animation {
+//     from {
+//         -moz-transform: translateX(100%);
+//     }
+//     to {
+//         -moz-transform: translateX(-100%);
+//     }
+// }
+
+// /* for Chrome */
+// @-webkit-keyframes my-animation {
+//     from {
+//         -webkit-transform: translateX(100%);
+//     }
+//     to {
+//         -webkit-transform: translateX(-100%);
+//     }
+// }
+
+// @keyframes my-animation {
+//     from {
+//         -moz-transform: translateX(100%);
+//         -webkit-transform: translateX(100%);
+//         transform: translateX(100%);
+//     }
+//     to {
+//         -moz-transform: translateX(-100%);
+//         -webkit-transform: translateX(-100%);
+//         transform: translateX(-100%);
+//     }
+// }

@@ -13,7 +13,7 @@
     --color-answer-hover-bg: rgb(248, 245, 241);
     --color-answer-hover-border: rgb(245, 152, 152);
     --color-answer-hover-right-bg: rgb(213 255 200);
-    --color-answer-hover-right-border: rgb(6 151 12);
+    --color-answer-hover-right-border: rgb(64 197 69);
 }
 
 * {
@@ -30,7 +30,15 @@ body {
     font-family: 'Lexend';
     font-weight: 200;
     text-rendering: optimizeSpeed;
+    margin: 0 !important;
+}
+
+.contentContainer {
     background-color: var(--color-background);
+    background-image: url(../../assets/bg.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-radius: 10px;
 }
 
 .wrapper {
