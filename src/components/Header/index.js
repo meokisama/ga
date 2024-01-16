@@ -19,12 +19,29 @@ function Header() {
 
         window.addEventListener('resize', handleResize);
 
+        const handleImageLoad = () => {
+            const imgElement = document.getElementById('banner');
+            if (imgElement) {
+                // Lấy chiều cao của thẻ img khi hình ảnh đã tải xong
+                const newImgHeight = imgElement.clientHeight;
+                setImgHeight(newImgHeight);
+            }
+        };
+
+        const imgElement = document.getElementById('banner');
+        if (imgElement) {
+            imgElement.addEventListener('load', handleImageLoad);
+        }
+
         // Gọi hàm handleResize khi component được mount để có giá trị ban đầu
         handleResize();
 
         // Hủy sự kiện khi component unmount
         return () => {
             window.removeEventListener('resize', handleResize);
+            if (imgElement) {
+                imgElement.removeEventListener('load', handleImageLoad);
+            }
         };
     }, []);
 
