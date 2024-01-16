@@ -70,6 +70,12 @@
 }
 
 @media all and (min-width: 480px) and (max-width: 768px) {
+    .questionContainer {
+        height: auto;
+        .question {
+            padding: 0 1rem 1rem 1rem;
+        }
+    }
 }
 
 @media all and (max-width: 480px) {

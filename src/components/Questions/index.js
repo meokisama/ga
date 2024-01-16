@@ -38,7 +38,7 @@ function Questions() {
 
     return (
         <div className="wrapper">
-            <SectionTitle title={"Mẫu Câu Hỏi"} description={"Đây là các câu hỏi của sự kiện năm ngoái, các mẫu câu hỏi đều sẽ tương tự như thế này!"} />
+            <SectionTitle title={"Mẫu Câu Hỏi"} description={"Đây là các câu hỏi của sự kiện năm ngoái, các mẫu câu hỏi đều sẽ tương tự như thế này!"} titleType="type2" />
             <div className="questionContainer">
 
                 <div className="questionHeader">

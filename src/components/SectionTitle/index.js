@@ -1,9 +1,9 @@
 import './SectionTitle.scss'
 
-function SectionTitle({ title, description }) {
+function SectionTitle({ title, description, titleType }) {
     return (
         <div>
-            <div className="head-title">
+            <div className={titleType}>
                 <h1><span>{title}</span></h1>
                 <p>{description}</p>
             </div>
