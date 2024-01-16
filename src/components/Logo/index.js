@@ -1,6 +1,6 @@
 import "./Logo.scss"
 import logo from "../../assets/logo.png"
-import logoBG from "../../assets/logo-bg.png"
+import logoBG from "../../assets/logo-bg2.png"
 
 function Logo() {
     return (

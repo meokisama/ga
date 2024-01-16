@@ -3,6 +3,7 @@ import Questions from "./components/Questions";
 import Footer from "./components/Footer";
 import OutlineText from "./components/OutlineText";
 import Logo from "./components/Logo";
+import Reward from "./components/Reward";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <div className="contentContainer">
         <OutlineText content="Ranobe Giveaway Booster" />
         <Logo />
+        <Reward />
         <Questions />
         <Footer />
       </div>

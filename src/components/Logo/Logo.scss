@@ -9,13 +9,13 @@
 
         #logo {
             position: absolute;
-            top: 26%;
+            top: 28%;
             left: 31%;
             z-index: 1;
             width: 40%;
         }
         #logoBG {
-            width: 60%;
+            width: 50%;
             animation-name: spin;
             animation-duration: 15s;
             animation-iteration-count: infinite;
@@ -30,5 +30,23 @@
                 transform: rotate(360deg);
             }
         }
+    }
+}
+
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+    .logoPerform {
+        padding-bottom: 1rem;
+    }
+}
+
+@media all and (max-width: 480px) {
+    .logoPerform {
+        padding-bottom: 1rem;
     }
 }

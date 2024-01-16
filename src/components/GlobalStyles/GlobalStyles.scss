@@ -65,23 +65,22 @@ body {
 }
 
 .wrapper {
-    padding: 0 40rem;
-}
-
-@media screen and (max-width: 1450px) {
-    .wrapper {
-        padding: 0 20rem !important;
+    max-width: 815px;
+    margin: 0 auto;
+    .item {
+        background-color: var(--color-azure);
+        border-radius: 15px;
+        max-width: 800px;
+        margin: 0 auto;
+        margin-bottom: 1.5rem;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+        padding: 20px 30px;
+        overflow: hidden;
     }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 875px) {
     .wrapper {
-        padding: 0 10rem !important;
-    }
-}
-
-@media screen and (max-width: 700px) {
-    .wrapper {
-        padding: 0 3rem !important;
+        padding: 0 3rem;
     }
 }

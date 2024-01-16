@@ -7,7 +7,7 @@ function Footer() {
         <div className='footer'>
             <OutlineText content="Ranobe Giveaway Booster" />
             <div>
-                <p>©Background based on layout of Kadokawa Sneaker Bunko 35th Anniversary</p>
+                <p>©Background is based on layout of Kadokawa Sneaker Bunko 35th Anniversary</p>
                 <img src={logo} alt='Ranobe Giveaway Booster' />
                 <p>©Meoki 2024</p>
             </div>
