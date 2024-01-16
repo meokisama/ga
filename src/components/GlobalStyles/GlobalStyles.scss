@@ -1,7 +1,5 @@
 @import 'normalize.css';
-
-@import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
@@ -9,7 +7,13 @@
     --color-black: #222222;
     --color-gray: rgba(34, 34, 34, 0.6);
     --color-background: #ffffff;
-    --color-azure: #f0f4f9;
+    --color-azure: #f2f5f8;
+    --color-answer-border: rgb(216, 215, 215);
+    --color-question: rgb(79, 76, 76);
+    --color-answer-hover-bg: rgb(248, 245, 241);
+    --color-answer-hover-border: rgb(245, 152, 152);
+    --color-answer-hover-right-bg: rgb(213 255 200);
+    --color-answer-hover-right-border: rgb(6 151 12);
 }
 
 * {
@@ -23,13 +27,14 @@ html {
 body {
     font-size: 1.6rem;
     line-height: 1.5;
-    font-family: 'Poppins';
+    font-family: 'Lexend';
+    font-weight: 200;
     text-rendering: optimizeSpeed;
     background-color: var(--color-background);
 }
 
 .wrapper {
-    padding: 0 400px;
+    padding: 0 40rem;
 }
 
 @media screen and (max-width: 1450px) {
@@ -41,5 +46,11 @@ body {
 @media screen and (max-width: 900px) {
     .wrapper {
         padding: 0 10rem !important;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .wrapper {
+        padding: 0 5rem !important;
     }
 }

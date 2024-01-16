@@ -1,7 +1,64 @@
 .questionContainer {
     background-color: var(--color-azure);
     border-radius: 15px;
-    height: 50rem;
+    height: 52rem;
+    max-width: 800px;
+    margin: 0 auto;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-    padding: 10px 20px;
+    padding: 20px 30px;
+    overflow: hidden;
+    h1 {
+        font-size: 2rem;
+        font-family: 'Lexend';
+        color: var(--color-question);
+    }
+    .questionHeader {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        button {
+            cursor: pointer;
+            font-size: 2rem;
+            border-radius: 25px;
+            background-color: var(--color-azure);
+            border: 1px solid var(--color-answer-border);
+            padding: 8px 10px;
+            &:hover {
+                background-color: var(--color-answer-hover-bg);
+                border: 1px solid var(--color-answer-hover-border);
+                box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 1px -1px;
+            }
+        }
+    }
+    .question {
+        font-size: 1.6rem;
+        text-align: center;
+        color: var(--color-question);
+        font-family: 'Lexend';
+        font-weight: 500;
+        padding: 0 3rem 1.5rem 3rem;
+    }
+    .answer {
+        padding-bottom: 2rem;
+        div {
+            border: 1px solid var(--color-answer-border);
+            padding: 10px 15px;
+            margin-bottom: 13px;
+            border-radius: 10px;
+            cursor: pointer;
+            &:not([class*='option']):hover {
+                background-color: var(--color-answer-hover-bg);
+                border: 1px solid var(--color-answer-hover-border);
+            }
+        }
+        .optionA,
+        .optionB,
+        .optionC,
+        .optionD {
+            &:hover {
+                background-color: var(--color-answer-hover-right-bg);
+                border: 1px solid var(--color-answer-hover-right-border);
+            }
+        }
+    }
 }
