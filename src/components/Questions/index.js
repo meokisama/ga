@@ -2,6 +2,7 @@ import { useState } from "react"
 
 import SectionTitle from "../SectionTitle"
 import "./Questions.scss"
+import haruhi from "../../assets/haruhi.webp"
 import { questionContent } from "./QuestionsContent.js"
 
 function Questions() {
@@ -38,17 +39,20 @@ function Questions() {
 
     return (
         <div className="wrapper">
-            <SectionTitle title={"Mẫu Câu Hỏi"} description={"Đây là các câu hỏi của sự kiện năm ngoái, các mẫu câu hỏi đều sẽ tương tự như thế này!"} titleType="type2" />
-            <div className="questionContainer">
+            <div className="questionWrapper">
+                <SectionTitle title={"Mẫu Câu Hỏi"} description={"Đây là các câu hỏi của sự kiện năm ngoái, các mẫu câu hỏi đều sẽ tương tự như thế này!"} titleType="type2" />
+                <div className="questionContainer">
 
-                <div className="questionHeader">
-                    <button onClick={prevClick}>←</button>
-                    <h1>Câu {(currentQuestionIndex + 1) < 10 ? '0' + (currentQuestionIndex + 1) : (currentQuestionIndex + 1)}/20</h1>
-                    <button onClick={nextClick}>→</button>
+                    <div className="questionHeader">
+                        <button onClick={prevClick}>←</button>
+                        <h1>Câu {(currentQuestionIndex + 1) < 10 ? '0' + (currentQuestionIndex + 1) : (currentQuestionIndex + 1)}/20</h1>
+                        <button onClick={nextClick}>→</button>
+                    </div>
+
+                    {currentQuestion}
+
                 </div>
-
-                {currentQuestion}
-
+                <img alt="Haruhi" src={haruhi} />
             </div>
         </div>
     );
