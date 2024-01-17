@@ -12,6 +12,18 @@
         top: -48%;
         left: 50%;
     }
+    .gold {
+        border: 2px solid gold;
+        background-color: #fff6c8 !important;
+    }
+    .silver {
+        border: 2px solid silver;
+        background-color: #e9e9e9 !important;
+    }
+    .bronze {
+        border: 2px solid #ffac5a;
+        background-color: #ffe1c4 !important;
+    }
 }
 
 @media all and (min-width: 875px) {

@@ -18,7 +18,8 @@ function Committee() {
                         alt="NaviRanebe"
                         src={avatar1}
                     />
-                    <p>NaviRanobe</p>
+                    <p>@NaviRanobe</p>
+                    <p className="fullName">Đứa biết nhiều nhất về Light Novel ở Việt Nam</p>
                 </div>
                 <div>
                     <img
@@ -26,7 +27,8 @@ function Committee() {
                         alt="TheMeoki"
                         src={avatar2}
                     />
-                    <p>TheMeoki</p>
+                    <p>@TheMeoki</p>
+                    <p className="fullName">Đứa biết nhiều thứ hai về Light Novel chuyên đi reply comment xin name</p>
                 </div>
             </div>
         </div>

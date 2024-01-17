@@ -6,6 +6,12 @@
         position: fixed;
         z-index: -1;
     }
+    #headerLogo {
+        width: 36%;
+        position: fixed;
+        top: 20%;
+        left: 8%;
+    }
     div {
         background: transparent;
     }
@@ -19,7 +25,7 @@
         left: 0;
     }
     .bubble {
-        position: absolute;
+        position: fixed;
         bottom: -100px;
         width: 40px;
         height: 40px;

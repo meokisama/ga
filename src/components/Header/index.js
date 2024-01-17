@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import './Header.scss';
 import banner from '../../assets/mignon.jpg'
 import bubble from "../../assets/bubble.png"
+import logo from "../../assets/logo.png"
 
 function Header() {
 
@@ -71,6 +72,7 @@ function Header() {
                 <div className="bubble"><img alt='bubble' src={bubble} /></div>
                 <div className="bubble"><img alt='bubble' src={bubble} /></div>
             </div>
+            <img id='headerLogo' alt='Logo' src={logo} />
         </div>
     )
 }
