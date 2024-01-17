@@ -49,6 +49,11 @@ function Header() {
     return (
         <div className='header'>
             <img id='banner' src={banner} alt='Ranobe Giveaway Booster' />
+            <img id='headerLogo' alt='Logo' src={logo} />
+            <img id='bubbleLogo1' alt='bubble' src={bubble} />
+            <img id='bubbleLogo2' alt='bubble' src={bubble} />
+            <img id='bubbleLogo3' alt='bubble' src={bubble} />
+            <img id='bubbleLogo4' alt='bubble' src={bubble} />
             <div style={{ height: imgHeight }}></div>
             <div className="bubbles">
                 <div className="bubble"><img alt='bubble' src={bubble} /></div>
@@ -72,7 +77,6 @@ function Header() {
                 <div className="bubble"><img alt='bubble' src={bubble} /></div>
                 <div className="bubble"><img alt='bubble' src={bubble} /></div>
             </div>
-            <img id='headerLogo' alt='Logo' src={logo} />
         </div>
     )
 }
