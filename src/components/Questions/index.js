@@ -14,10 +14,10 @@ function Questions() {
             <div>
                 <h2 className="question">{question.question}</h2>
                 <div className="answer">
-                    <div className={question.correctOption === 'optionA' ? 'optionA' : null}>A. {question.optionA}</div>
-                    <div className={question.correctOption === 'optionB' ? 'optionB' : null}>B. {question.optionB}</div>
-                    <div className={question.correctOption === 'optionC' ? 'optionC' : null}>C. {question.optionC}</div>
-                    <div className={question.correctOption === 'optionD' ? 'optionD' : null}>D. {question.optionD}</div>
+                    <div className={question.correctOption === 'optionA' ? 'optionA' : null}><strong>A.</strong> {question.optionA}</div>
+                    <div className={question.correctOption === 'optionB' ? 'optionB' : null}><strong>B.</strong> {question.optionB}</div>
+                    <div className={question.correctOption === 'optionC' ? 'optionC' : null}><strong>C.</strong> {question.optionC}</div>
+                    <div className={question.correctOption === 'optionD' ? 'optionD' : null}><strong>D.</strong> {question.optionD}</div>
                 </div>
             </div>
         )

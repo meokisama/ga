@@ -35,9 +35,7 @@
         color: #e26b09;
         font-size: 4rem;
         margin-top: -2rem;
-        animation-name: vertically;
-        animation-iteration-count: infinite;
-        animation-duration: 2s;
+        animation: vertically 2s infinite linear;
     }
 }
 
