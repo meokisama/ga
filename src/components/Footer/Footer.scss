@@ -19,3 +19,14 @@
         }
     }
 }
+
+@media all and (max-width: 480px) {
+    .footer {
+        img {
+            width: 200px !important;
+        }
+        p {
+            font-size: 1.3rem !important;
+        }
+    }
+}

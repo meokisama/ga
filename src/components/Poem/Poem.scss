@@ -1,0 +1,101 @@
+.poem {
+    padding-bottom: 4rem;
+    position: relative;
+    blockquote {
+        font-size: 4rem;
+        font-family: 'Playfair Display';
+        text-align: center;
+        background: -webkit-linear-gradient(to right, #0f83db 0%, #ff4b0a 100%);
+        background: -moz-linear-gradient(to right, #0f83db 0%, #ff4b0a 100%);
+        background: linear-gradient(to right, #0f83db 0%, #ff4b0a 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        p {
+            font-weight: 500;
+            white-space: nowrap;
+            &::before {
+                content: open-quote;
+            }
+            &::after {
+                content: close-quote;
+            }
+        }
+        cite {
+            font-size: 2.5rem;
+        }
+    }
+    img {
+        width: 25%;
+        position: absolute;
+        top: -30%;
+        left: -8%;
+    }
+    #arrow {
+        text-align: center;
+        color: #e26b09;
+        font-size: 4rem;
+        margin-top: -2rem;
+        animation-name: vertically;
+        animation-iteration-count: infinite;
+        animation-duration: 2s;
+    }
+}
+
+@-moz-keyframes vertically {
+    0% {
+        -moz-transform: translateY(-10px);
+    }
+    50% {
+        -moz-transform: translateY(10px);
+    }
+    100% {
+        -moz-transform: translateY(-10px);
+    }
+}
+@-webkit-keyframes vertically {
+    0% {
+        -webkit-transform: translateY(-10px);
+    }
+    50% {
+        -webkit-transform: translateY(10px);
+    }
+    100% {
+        -webkit-transform: translateY(-10px);
+    }
+}
+@keyframes vertically {
+    0% {
+        -moz-transform: translateY(-10px);
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+    50% {
+        -moz-transform: translateY(10px);
+        -webkit-transform: translateY(10px);
+        transform: translateY(10px);
+    }
+    100% {
+        -moz-transform: translateY(-10px);
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+}
+
+@media all and (max-width: 600px) {
+    .poem {
+        blockquote {
+            p {
+                font-size: 6vw;
+            }
+            cite {
+                font-size: 4vw;
+            }
+        }
+        #arrow {
+            font-size: 6vw;
+        }
+        img {
+            display: none;
+        }
+    }
+}

@@ -22,9 +22,11 @@
 
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 body {
+    scroll-behavior: smooth;
     font-size: 1.6rem;
     line-height: 1.5;
     font-family: 'Lexend';
@@ -62,6 +64,14 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     border-radius: 10px;
+    img {
+        user-drag: none;
+        user-select: none;
+        -moz-user-select: none;
+        -webkit-user-drag: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+    }
 }
 
 .wrapper {
