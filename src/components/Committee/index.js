@@ -8,7 +8,7 @@ function Committee() {
         <div className="committee wrapper">
             <SectionTitle
                 title="Nhân Sự"
-                description="Ban tổ chức. Mọi câu hỏi thắc mắc về cuộc thi đều có thể gửi tin nhắn trực tiếp tới hai vị này!"
+                description="Ban tổ chức. Mọi câu hỏi thắc mắc về cuộc thi đều có thể gửi tin nhắn trực tiếp tới hai trang này!"
                 titleType="type2"
             />
             <div className="avatar">

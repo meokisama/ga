@@ -5,71 +5,417 @@
         z-index: 2;
         position: relative;
     }
+    .type1 {
+        p {
+            padding-right: 35rem;
+        }
+    }
     #alisa {
         width: 50%;
         z-index: 1;
         position: absolute;
-        top: -48%;
-        left: 50%;
+        left: 55%;
     }
     .gold {
         border: 2px solid gold;
         background-color: #fff6c8 !important;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 6rem;
+        .goldContent {
+            width: 300px;
+            text-align: center;
+            h1 {
+                font-family: 'Playfair Display';
+                color: #ffb300;
+            }
+            h3 {
+                color: #7d7267;
+            }
+            p {
+                text-align: justify;
+                margin-bottom: 5rem;
+            }
+            div {
+                border: 1px solid gold;
+                padding: 0.5rem;
+                border-radius: 10px;
+            }
+        }
+        .goldSwiper {
+            padding: 1rem 5rem;
+            .swiper {
+                width: 321px;
+                height: 464px;
+            }
+
+            .swiper-slide {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 18px;
+                font-size: 22px;
+                font-weight: bold;
+                color: #fff;
+            }
+            .swiper-slide:nth-child(1n) {
+                background: url('../../assets/gold/01.jpg');
+                background-size: 100% 100%;
+                box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+                    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+            }
+
+            .swiper-slide:nth-child(2n) {
+                background: url('../../assets/gold/02.jpg');
+                background-size: 100% 100%;
+            }
+
+            .swiper-slide:nth-child(3n) {
+                background: url('../../assets/gold/03.jpg');
+                background-size: 100% 100%;
+            }
+
+            .swiper-slide:nth-child(4n) {
+                background: url('../../assets/gold/04.jpg');
+                background-size: 100% 100%;
+            }
+
+            .swiper-slide:nth-child(5n) {
+                background: url('../../assets/gold/05.jpg');
+                background-size: 100% 100%;
+            }
+
+            .swiper-slide:nth-child(6n) {
+                background: url('../../assets/gold/06.jpg');
+                background-size: 100% 100%;
+            }
+
+            .swiper-slide:nth-child(7n) {
+                background: url('../../assets/gold/07.jpg');
+                background-size: 100% 100%;
+            }
+
+            .swiper-slide:nth-child(8n) {
+                background: url('../../assets/gold/08.jpg');
+                background-size: 100% 100%;
+            }
+
+            .swiper-slide:nth-child(9n) {
+                background: url('../../assets/gold/09.jpg');
+                background-size: 100% 100%;
+            }
+
+            .swiper-slide:nth-child(10n) {
+                background: url('../../assets/gold/10.jpg');
+                background-size: 100% 100%;
+            }
+
+            .swiper-slide:nth-child(11n) {
+                background: url('../../assets/gold/11.jpg');
+                background-size: 100% 100%;
+            }
+
+            .swiper-slide:nth-child(12n) {
+                background: url('../../assets/gold/12.jpg');
+                background-size: 100% 100%;
+            }
+
+            .swiper-slide:nth-child(13n) {
+                background: url('../../assets/gold/13.jpg');
+                background-size: 100% 100%;
+            }
+
+            .swiper-slide:nth-child(14n) {
+                background: url('../../assets/gold/14.jpg');
+                background-size: 100% 100%;
+            }
+
+            .swiper-slide:nth-child(15n) {
+                background: url('../../assets/gold/15.jpg');
+                background-size: 100% 100%;
+            }
+
+            .swiper-slide:nth-child(16n) {
+                background: url('../../assets/gold/16.jpg');
+                background-size: 100% 100%;
+            }
+
+            .swiper-slide:nth-child(17n) {
+                background: url('../../assets/gold/17.jpg');
+                background-size: 100% 100%;
+            }
+
+            .swiper-slide:nth-child(18n) {
+                background: url('../../assets/gold/18.jpg');
+                background-size: 100% 100%;
+            }
+
+            .swiper-slide:nth-child(19n) {
+                background: url('../../assets/gold/19.jpg');
+                background-size: 100% 100%;
+            }
+
+            .swiper-slide:nth-child(20n) {
+                background: url('../../assets/gold/20.jpg');
+                background-size: 100% 100%;
+            }
+
+            .swiper-slide:nth-child(21n) {
+                background: url('../../assets/gold/21.jpg');
+                background-size: 100% 100%;
+            }
+
+            .swiper-slide:nth-child(22n) {
+                background: url('../../assets/gold/22.jpg');
+                background-size: 100% 100%;
+            }
+
+            .swiper-slide:nth-child(23n) {
+                background: url('../../assets/gold/23.jpg');
+                background-size: 100% 100%;
+            }
+
+            .swiper-slide:nth-child(24n) {
+                background: url('../../assets/gold/24.jpg');
+                background-size: 100% 100%;
+            }
+
+            .swiper-slide:nth-child(25n) {
+                background: url('../../assets/gold/25.jpg');
+                background-size: 100% 100%;
+            }
+
+            .swiper-slide:nth-child(26n) {
+                background: url('../../assets/gold/26.jpg');
+                background-size: 100% 100%;
+            }
+
+            .swiper-slide:nth-child(27n) {
+                background: url('../../assets/gold/27.jpg');
+                background-size: 100% 100%;
+            }
+        }
     }
     .silver {
         border: 2px solid silver;
         background-color: #e9e9e9 !important;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 6rem;
+        .silverContent {
+            width: 300px;
+            text-align: center;
+            h1 {
+                font-family: 'Playfair Display';
+                color: #898989;
+            }
+            h3 {
+                color: #7d7267;
+            }
+            p {
+                text-align: justify;
+                margin-bottom: 5rem;
+            }
+            div {
+                border: 1px solid silver;
+                padding: 0.5rem;
+                border-radius: 10px;
+            }
+        }
+        .silverSwiper {
+            padding: 1rem 5rem;
+            .swiper {
+                width: 321px;
+                height: 464px;
+            }
+
+            .swiper-slide {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 18px;
+                font-size: 22px;
+                font-weight: bold;
+                color: #fff;
+            }
+            .swiper-slide:nth-child(1n) {
+                background: url('../../assets/gold/01.jpg');
+                background-size: 100% 100%;
+                box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+                    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+            }
+        }
     }
     .bronze {
         border: 2px solid #ffac5a;
         background-color: #ffe1c4 !important;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 6rem;
+        .bronzeContent {
+            width: 300px;
+            text-align: center;
+            h1 {
+                font-family: 'Playfair Display';
+                color: #d57e21;
+            }
+            h3 {
+                color: #7d7267;
+            }
+            p {
+                text-align: justify;
+                margin-bottom: 5rem;
+            }
+            div {
+                border: 1px solid #ffac5a;
+                padding: 0.5rem;
+                border-radius: 10px;
+            }
+        }
+        .bronzeSwiper {
+            padding: 1rem 5rem;
+            .swiper {
+                width: 321px;
+                height: 464px;
+            }
+
+            .swiper-slide {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 18px;
+                font-size: 22px;
+                font-weight: bold;
+                color: #fff;
+            }
+            .swiper-slide:nth-child(1n) {
+                background: url('../../assets/gold/01.jpg');
+                background-size: 100% 100%;
+                box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+                    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+            }
+        }
     }
 }
 
 @media all and (min-width: 875px) {
     .reward {
         #alisa {
-            top: -48%;
+            top: -11%;
         }
     }
 }
 
 @media all and (min-width: 700px) and (max-width: 875px) {
     .reward {
-        #alisa {
-            top: -35%;
+        .type1 {
+            p {
+                padding-right: 30rem;
+            }
         }
-    }
-}
-
-@media all and (min-width: 580px) and (max-width: 700px) {
-    .reward {
-        #alisa {
-            top: -20%;
-        }
-    }
-}
-
-@media all and (min-width: 480px) and (max-width: 580px) {
-    .reward {
-        #alisa {
-            top: -10%;
-        }
-    }
-}
-
-@media all and (min-width: 400px) and (max-width: 480px) {
-    .reward {
         #alisa {
             top: -3%;
         }
     }
 }
 
+@media all and (min-width: 580px) and (max-width: 700px) {
+    .reward {
+        .type1 {
+            p {
+                padding-right: 20rem;
+            }
+        }
+        #alisa {
+            top: 0%;
+        }
+    }
+}
+
+@media all and (min-width: 480px) and (max-width: 580px) {
+    .reward {
+        .type1 {
+            p {
+                padding-right: 18rem;
+            }
+        }
+        #alisa {
+            top: 1%;
+        }
+    }
+}
+
+@media all and (min-width: 400px) and (max-width: 480px) {
+    .reward {
+        .type1 {
+            p {
+                padding-right: 17rem;
+            }
+        }
+        #alisa {
+            top: 2%;
+        }
+    }
+}
+
 @media all and (max-width: 400px) {
     .reward {
+        .type1 {
+            p {
+                padding-right: 0;
+            }
+        }
         #alisa {
             display: none;
+        }
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .reward {
+        .gold {
+            flex-direction: column;
+        }
+        .silver {
+            flex-direction: column-reverse;
+        }
+        .bronze {
+            flex-direction: column;
+        }
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .reward {
+        .gold {
+            .goldSwiper {
+                .swiper {
+                    width: 200px;
+                    height: 289px;
+                }
+            }
+        }
+        .silver {
+            .silverSwiper {
+                .swiper {
+                    width: 200px;
+                    height: 289px;
+                }
+            }
+        }
+        .bronze {
+            .bronzeSwiper {
+                .swiper {
+                    width: 200px;
+                    height: 289px;
+                }
+            }
         }
     }
 }

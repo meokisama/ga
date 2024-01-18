@@ -3,7 +3,9 @@ import "./Introduction.scss"
 function Introduction() {
     return (
         <div className="wrapper introduction">
-            <div>sc</div>
+            <div>
+                sc
+            </div>
             <div>
                 dv
             </div>
