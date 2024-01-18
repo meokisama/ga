@@ -1,5 +1,5 @@
 import './Footer.scss'
-import logo from '../../assets/logo.png'
+import logo from '../../assets/logo.webp'
 import OutlineText from '../OutlineText';
 
 function Footer() {

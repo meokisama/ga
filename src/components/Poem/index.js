@@ -1,5 +1,5 @@
 import "./Poem.scss"
-import makein from "../../assets/makein.png"
+import makein from "../../assets/makein.webp"
 
 function Poem() {
     return (

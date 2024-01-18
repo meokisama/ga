@@ -1,7 +1,7 @@
 import "./Rules.scss"
 import { allRules } from "./Rules.js"
 import SectionTitle from "../SectionTitle"
-import virgin from "../../assets/virgin.png"
+import virgin from "../../assets/virgin.webp"
 
 function Rules() {
     return (
