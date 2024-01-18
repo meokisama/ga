@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 import './Header.scss';
-import banner from '../../assets/mignon.jpg'
+import banner from '../../assets/mignon.webp'
 import bubble from "../../assets/bubble.png"
 import logo from "../../assets/logo.webp"
 
