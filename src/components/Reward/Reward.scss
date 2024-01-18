@@ -16,6 +16,25 @@
         position: absolute;
         left: 55%;
     }
+    #liar {
+        width: 70%;
+        z-index: 1;
+        position: absolute;
+        top: 45%;
+        left: -49%;
+        animation: vertically 4s infinite linear;
+    }
+    #tenten {
+        width: 70%;
+        z-index: 1;
+        position: absolute;
+        top: 19%;
+        right: -49%;
+        -webkit-transform: scaleX(-1);
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        transform: scaleX(-1);
+    }
     .gold {
         border: 2px solid gold;
         background-color: #fff6c8 !important;
@@ -25,7 +44,7 @@
         align-items: center;
         gap: 6rem;
         .goldContent {
-            width: 300px;
+            width: min(300px, 100%);
             text-align: center;
             h1 {
                 font-family: 'Playfair Display';
@@ -207,7 +226,7 @@
         align-items: center;
         gap: 6rem;
         .silverContent {
-            width: 300px;
+            width: min(300px, 100%);
             text-align: center;
             h1 {
                 font-family: 'Playfair Display';
@@ -243,7 +262,7 @@
                 color: #fff;
             }
             .swiper-slide:nth-child(1n) {
-                background: url('../../assets/gold/01.jpg');
+                background: url('../../assets/gold/05.jpg');
                 background-size: 100% 100%;
                 box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
                     rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
@@ -259,7 +278,7 @@
         align-items: center;
         gap: 6rem;
         .bronzeContent {
-            width: 300px;
+            width: min(300px, 100%);
             text-align: center;
             h1 {
                 font-family: 'Playfair Display';
@@ -295,7 +314,7 @@
                 color: #fff;
             }
             .swiper-slide:nth-child(1n) {
-                background: url('../../assets/gold/01.jpg');
+                background: url('../../assets/gold/05.jpg');
                 background-size: 100% 100%;
                 box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
                     rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
@@ -308,6 +327,15 @@
     .reward {
         #alisa {
             top: -11%;
+        }
+    }
+}
+
+@media all and (max-width: 900px) {
+    .reward {
+        #tenten,
+        #liar {
+            display: none;
         }
     }
 }

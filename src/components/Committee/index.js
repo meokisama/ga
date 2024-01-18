@@ -1,7 +1,7 @@
 import "./Committee.scss"
 import SectionTitle from "../SectionTitle"
 import avatar1 from "../../assets/avatar1.jpg"
-import avatar2 from "../../assets/avatar2.jpg"
+import avatar2 from "../../assets/avatar2.webp"
 
 function Committee() {
     return (

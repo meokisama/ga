@@ -9,6 +9,7 @@ import Poem from "./components/Poem";
 import Rules from "./components/Rules";
 import Committee from "./components/Committee";
 import Introduction from "./components/Introduction";
+import KonoRano from "./components/KonoRano";
 
 function App() {
   return (
@@ -25,6 +26,8 @@ function App() {
         <Rules />
         <OutlineText content="TheMeoki & NaviRanobe" />
         <Reward />
+        <OutlineText content="Ranobe Giveaway Booster" />
+        <KonoRano />
         <Questions />
         <Footer />
       </div>

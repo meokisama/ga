@@ -1,4 +1,9 @@
 .introduction {
     display: flex;
     justify-content: space-between;
+    .introContent {
+        text-align: justify;
+        font-family: 'Playfair Display';
+        font-size: 2rem;
+    }
 }

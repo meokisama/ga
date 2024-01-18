@@ -92,6 +92,10 @@
         #arrow {
             font-size: 6vw;
         }
+    }
+}
+@media all and (max-width: 900px) {
+    .poem {
         img {
             display: none;
         }

@@ -1,17 +1,14 @@
 import React, { useRef, useState } from 'react';
-// Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
-
-// Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/effect-cards';
-
-// import required modules
 import { EffectCards } from 'swiper/modules';
 
 import "./Reward.scss"
 import SectionTitle from "../SectionTitle"
 import alisa from "../../assets/alisa.webp"
+import tenten from "../../assets/tenten.webp"
+import liar from "../../assets/liar.webp"
 
 function Reward() {
     return (
@@ -82,11 +79,11 @@ function Reward() {
                             className="mySwiper"
                             initialSlide={1}
                         >
-                            <SwiperSlide></SwiperSlide>
-                            <SwiperSlide></SwiperSlide>
-                            <SwiperSlide></SwiperSlide>
-                            <SwiperSlide></SwiperSlide>
-                            <SwiperSlide></SwiperSlide>
+                            <SwiperSlide>Giải nhì chưa kiếm ra</SwiperSlide>
+                            <SwiperSlide>Giải nhì chưa kiếm ra</SwiperSlide>
+                            <SwiperSlide>Giải nhì chưa kiếm ra</SwiperSlide>
+                            <SwiperSlide>Giải nhì chưa kiếm ra</SwiperSlide>
+                            <SwiperSlide>Giải nhì chưa kiếm ra</SwiperSlide>
                         </Swiper>
                     </div>
                 </div>
@@ -99,11 +96,11 @@ function Reward() {
                             className="mySwiper"
                             initialSlide={1}
                         >
-                            <SwiperSlide></SwiperSlide>
-                            <SwiperSlide></SwiperSlide>
-                            <SwiperSlide></SwiperSlide>
-                            <SwiperSlide></SwiperSlide>
-                            <SwiperSlide></SwiperSlide>
+                            <SwiperSlide>Giải ba chưa kiếm ra</SwiperSlide>
+                            <SwiperSlide>Giải ba chưa kiếm ra</SwiperSlide>
+                            <SwiperSlide>Giải ba chưa kiếm ra</SwiperSlide>
+                            <SwiperSlide>Giải ba chưa kiếm ra</SwiperSlide>
+                            <SwiperSlide>Giải ba chưa kiếm ra</SwiperSlide>
                         </Swiper>
                     </div>
                     <div className='bronzeContent'>
@@ -114,6 +111,8 @@ function Reward() {
                     </div>
                 </div>
                 <img id="alisa" alt="Alisa" src={alisa} />
+                <img id="tenten" alt="" src={tenten} />
+                <img id="liar" alt="" src={liar} />
             </div>
         </div>
     );
