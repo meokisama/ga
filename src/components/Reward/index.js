@@ -7,7 +7,6 @@ import { EffectCards } from 'swiper/modules';
 import "./Reward.scss"
 import SectionTitle from "../SectionTitle"
 import alisa from "../../assets/alisa.webp"
-import tenten from "../../assets/tenten.webp"
 import liar from "../../assets/liar.webp"
 
 function Reward() {
@@ -60,7 +59,7 @@ function Reward() {
                     <div className='goldContent'>
                         <h1>━ Giải Nhất ━</h1>
                         <h3>Dengeki Wedding 30th Anniversary Artbook</h3>
-                        <p>Cuốn artbook kích cỡ A4 cho bộ ảnh <strong>kỉ niệm 30 năm của Dengeki Bunko</strong>, bao gồm 81 tấm ảnh đồ cưới của <strong>81 tác phẩm</strong> khác nhau của họ trong 30 năm qua.</p>
+                        <p>Cuốn artbook kích cỡ A4 cho bộ ảnh kỉ niệm 30 năm của Dengeki Bunko. Bao gồm <strong>81 tấm ảnh váy cưới</strong> cho <strong>81 tác phẩm</strong> trong tổng số các ấn phẩm được xuất bản của họ trong 30 năm qua.</p>
                         <div><strong>━ Thân thiện nhắc nhở ━</strong><br /> Trượt sang trái/phải ở đống ảnh để xem thêm ảnh tiếp theo!</div>
                     </div>
                 </div>
@@ -68,7 +67,7 @@ function Reward() {
                     <div className='silverContent'>
                         <h1>━ Giải Nhì ━</h1>
                         <h3>Dengeki Wedding 30th Anniversary Artbook</h3>
-                        <p>Cuốn artbook kích cỡ A4 cho bộ ảnh <strong>kỉ niệm 30 năm của Dengeki Bunko</strong>, bao gồm 81 tấm ảnh đồ cưới của <strong>81 tác phẩm</strong> khác nhau của họ trong 30 năm qua.</p>
+                        <p>Cuốn artbook kích cỡ A4 cho bộ ảnh kỉ niệm 30 năm của Dengeki Bunko. Bao gồm <strong>81 tấm ảnh váy cưới</strong> cho <strong>81 tác phẩm</strong> trong tổng số các ấn phẩm được xuất bản của họ trong 30 năm qua.</p>
                         <div><strong>━ Thân thiện nhắc nhở ━</strong><br /> Trượt sang trái/phải ở đống ảnh để xem thêm ảnh tiếp theo!</div>
                     </div>
                     <div className='silverSwiper'>
@@ -106,12 +105,11 @@ function Reward() {
                     <div className='bronzeContent'>
                         <h1>━ Giải Ba ━</h1>
                         <h3>Dengeki Wedding 30th Anniversary Artbook</h3>
-                        <p>Cuốn artbook kích cỡ A4 cho bộ ảnh <strong>kỉ niệm 30 năm của Dengeki Bunko</strong>, bao gồm 81 tấm ảnh đồ cưới của <strong>81 tác phẩm</strong> khác nhau của họ trong 30 năm qua.</p>
+                        <p>Cuốn artbook kích cỡ A4 cho bộ ảnh kỉ niệm 30 năm của Dengeki Bunko. Bao gồm <strong>81 tấm ảnh váy cưới</strong> cho <strong>81 tác phẩm</strong> trong tổng số các ấn phẩm được xuất bản của họ trong 30 năm qua.</p>
                         <div><strong>━ Thân thiện nhắc nhở ━</strong><br /> Trượt sang trái/phải ở đống ảnh để xem thêm ảnh tiếp theo!</div>
                     </div>
                 </div>
                 <img id="alisa" alt="Alisa" src={alisa} />
-                <img id="tenten" alt="" src={tenten} />
                 <img id="liar" alt="" src={liar} />
             </div>
         </div>
