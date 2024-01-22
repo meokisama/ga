@@ -1,6 +1,6 @@
 import "./Introduction.scss"
 import haruhiGif from "../../assets/tenor.gif"
-import introImg from "../../assets/tsurekano.jpg"
+import introImg from "../../assets/tsurekano.webp"
 import signature from "../../assets/signature.png"
 
 function Introduction() {
