@@ -14,7 +14,7 @@ function Rules() {
             <div className="item">
                 {allRules.map((rule, index) => {
                     return (
-                        <div className="rule">
+                        <div key={index} className="rule">
                             <strong>{index + 1}.</strong> {rule}
                         </div>
                     )

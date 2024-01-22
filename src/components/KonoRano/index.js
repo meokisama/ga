@@ -42,9 +42,9 @@ function KonoRano() {
                 titleType="type2"
             />
             <div className="gridKono">
-                {items.map(item => {
+                {items.map((item, index) => {
                     return (
-                        <div className="gridItem" style={item.border} onClick={() => window.open(item.url, "_blank")}>
+                        <div key={index} className="gridItem" style={item.border} onClick={() => window.open(item.url, "_blank")}>
                             <img alt="" src={item.cover} />
                             <div className="info">
                                 <h2>Kono Light Novel ga Sugoi! {item.year}</h2>

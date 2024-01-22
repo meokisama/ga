@@ -1,5 +1,6 @@
 import "./Introduction.scss"
-import lovecacao from "../../assets/tenor.gif"
+import haruhiGif from "../../assets/tenor.gif"
+import introImg from "../../assets/tsurekano.jpg"
 import signature from "../../assets/signature.png"
 
 function Introduction() {
@@ -7,8 +8,9 @@ function Introduction() {
         <div className="introduction">
             <div className="inner">
                 <div className="innerContent">
+                    <img id="harugif" alt="" src={haruhiGif} />
                     <div className="introImage">
-                        <img alt="" src={lovecacao} />
+                        <img alt="" src={introImg} />
                     </div>
                     <div className="introContent">
                         <h1>✤ Khởi Nguyên ✤</h1>
