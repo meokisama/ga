@@ -10,6 +10,7 @@ import Rules from "./components/Rules";
 import Committee from "./components/Committee";
 import Introduction from "./components/Introduction";
 import KonoRano from "./components/KonoRano";
+import Countdown from "./components/Countdown";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
 
         <Introduction />
         <Committee />
+        <Countdown targetDate={"2024-03-02T19:00:00"} />
         <Rules />
         <OutlineText content="TheMeoki & NaviRanobe" />
         <Reward />

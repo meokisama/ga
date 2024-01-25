@@ -18,6 +18,7 @@ function Reward() {
                     description="Phần thưởng giành cho 3 người chiến thắng năm nay! Trượt sang trái/phải ở đống ảnh để xem ảnh tiếp theo!"
                     titleType="type1"
                 />
+
                 <div className="item gold">
                     <div className='goldSwiper'>
                         <Swiper
@@ -63,6 +64,11 @@ function Reward() {
                         <div><strong>━ Thân thiện nhắc nhở ━</strong><br /> Trượt sang trái/phải ở đống ảnh để xem thêm ảnh tiếp theo!</div>
                     </div>
                 </div>
+
+                <div className='item goldBonus'>
+                    <p>Ngoài ra, người giành Giải Nhất bên cạnh artbook còn sẽ được chúng tôi thưởng nóng thêm số tiền <span> 1.000.000đ (1 triệu đồng) </span> chuyển khoản trực tiếp!</p>
+                </div>
+
                 <div className="item silver">
                     <div className='silverContent'>
                         <h1>━ Giải Nhì ━</h1>

@@ -1,0 +1,122 @@
+.countdown {
+    padding: 0 3rem 10rem;
+    max-width: 815px;
+    margin: 0 auto;
+    .timeCardWrapper {
+        margin-top: -57%;
+        #stackimage {
+            width: 100%;
+            z-index: 2;
+            position: relative;
+            transform: translateY(74%);
+        }
+        .timeCard {
+            overflow: hidden;
+            background-color: var(--color-azure);
+            border-radius: 15px;
+            border: 1px solid #db8c8e;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px -2px 5px -1px, rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+                rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+            .timeHeader {
+                img {
+                    width: 100%;
+                    transform: translateY(-27%);
+                }
+            }
+            .timeInfo {
+                text-align: center;
+                padding: 0 10%;
+                margin-top: -16%;
+                h4 {
+                    color: #5f3f2f;
+                }
+                h2 {
+                    width: 45%;
+                    padding: 7px 0;
+                    margin: auto;
+                    color: #db6d70;
+                    border: 1px solid var(--color-answer-border);
+                    border-radius: 10px;
+                    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 1px -1px;
+                }
+                p {
+                    text-align: justify;
+                }
+            }
+            .timeLeft {
+                width: 80%;
+                margin: auto;
+                margin-bottom: 3rem;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                gap: 8rem;
+                padding-bottom: 2rem;
+                border: 1px solid var(--color-answer-border);
+                border-radius: 10px;
+                box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 1px -1px;
+                div {
+                    text-align: center;
+                    display: flex;
+                    flex-direction: column;
+                    h2 {
+                        font-size: 3rem;
+                        z-index: 3;
+                        color: #5f3f2f;
+                    }
+                    span {
+                        font-family: 'Estonia';
+                        font-size: 5rem;
+                        color: #db6d70;
+                        margin-top: -7.7rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .countdown {
+        .timeInfo {
+            padding: 0 5% !important;
+            h2 {
+                width: 70% !important;
+            }
+        }
+        .timeLeft {
+            width: 100% !important;
+            border: none !important;
+            box-shadow: none !important;
+        }
+    }
+}
+
+@media screen and (max-width: 545px) {
+    .countdown {
+        .timeLeft {
+            justify-content: space-around !important;
+            gap: 0 !important;
+            div {
+                h2 {
+                    font-size: 2.5rem !important;
+                }
+                span {
+                    font-size: 4.5rem !important;
+                    margin-top: -6.7rem !important;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .countdown {
+        .timeInfo {
+            h2 {
+                width: 90% !important;
+            }
+        }
+    }
+}

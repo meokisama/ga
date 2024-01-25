@@ -52,3 +52,17 @@
         }
     }
 }
+
+@media screen and (max-width: 500px) {
+    .avatar {
+        div {
+            img {
+                width: 100px !important;
+                height: 100px !important;
+            }
+        }
+        .fullName {
+            font-size: 1.4rem !important;
+        }
+    }
+}
