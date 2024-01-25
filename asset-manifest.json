@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ga/static/css/main.063628ea.css",
-    "main.js": "/ga/static/js/main.2ab883c5.js",
+    "main.css": "/ga/static/css/main.015afd56.css",
+    "main.js": "/ga/static/js/main.1ccfcbf9.js",
     "static/js/787.17d24211.chunk.js": "/ga/static/js/787.17d24211.chunk.js",
     "static/media/tenor.gif": "/ga/static/media/tenor.86e860e2ac02785b002f.gif",
     "static/media/logo-bg2.webp": "/ga/static/media/logo-bg2.5c769a857c648bf184fb.webp",
@@ -14,6 +14,8 @@
     "static/media/2021.webp": "/ga/static/media/2021.7e6547ddab899bea1758.webp",
     "static/media/liar.webp": "/ga/static/media/liar.d9902f7c08214c4cad47.webp",
     "static/media/avatar2.webp": "/ga/static/media/avatar2.56eddc8705c68830ad54.webp",
+    "static/media/danimaru_stack.webp": "/ga/static/media/danimaru_stack.44de75a1d48e60a8fe04.webp",
+    "static/media/danimaru.webp": "/ga/static/media/danimaru.7c5bc824f729bcf49164.webp",
     "static/media/logo.webp": "/ga/static/media/logo.45781cf015f2a8c58aa0.webp",
     "static/media/makein.webp": "/ga/static/media/makein.d083591559ab692c2ae2.webp",
     "static/media/01.jpg": "/ga/static/media/01.22589bbf5103f728518a.jpg",
@@ -50,12 +52,12 @@
     "static/media/bubble.png": "/ga/static/media/bubble.8befa86da9880d40ba99.png",
     "static/media/signature.png": "/ga/static/media/signature.75965ff5edede015b870.png",
     "index.html": "/ga/index.html",
-    "main.063628ea.css.map": "/ga/static/css/main.063628ea.css.map",
-    "main.2ab883c5.js.map": "/ga/static/js/main.2ab883c5.js.map",
+    "main.015afd56.css.map": "/ga/static/css/main.015afd56.css.map",
+    "main.1ccfcbf9.js.map": "/ga/static/js/main.1ccfcbf9.js.map",
     "787.17d24211.chunk.js.map": "/ga/static/js/787.17d24211.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.063628ea.css",
-    "static/js/main.2ab883c5.js"
+    "static/css/main.015afd56.css",
+    "static/js/main.1ccfcbf9.js"
   ]
 }
