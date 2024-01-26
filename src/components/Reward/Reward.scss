@@ -72,6 +72,13 @@
             }
             h3 {
                 color: #7d7267;
+                background: linear-gradient(to right, #0f83db 0%, #ff4b0a 100%);
+                background-clip: text;
+                -webkit-text-fill-color: transparent;
+                padding: 10px;
+                border: 1px solid goldenrod;
+                border-radius: 10px;
+                box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 1px -1px;
             }
             p {
                 text-align: justify;
@@ -237,107 +244,69 @@
             }
         }
     }
-    .silver {
-        border: 2px solid silver;
-        background-color: #e9e9e9 !important;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        gap: 6rem;
-        .silverContent {
-            width: min(300px, 100%);
-            text-align: center;
-            h1 {
-                font-family: 'Playfair Display';
-                color: #898989;
-            }
-            h3 {
-                color: #7d7267;
-            }
-            p {
-                text-align: justify;
-                margin-bottom: 5rem;
-            }
-            div {
-                border: 1px solid silver;
-                padding: 0.5rem;
-                border-radius: 10px;
-            }
-        }
-        .silverSwiper {
-            padding: 1rem 5rem;
-            .swiper {
-                width: 321px;
-                height: 464px;
-            }
 
-            .swiper-slide {
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                border-radius: 18px;
-                font-size: 22px;
-                font-weight: bold;
-                color: #fff;
-            }
-            .swiper-slide:nth-child(1n) {
-                background: url('../../assets/gold/05.jpg');
-                background-size: 100% 100%;
-                box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
-                    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-            }
-        }
-    }
-    .bronze {
-        border: 2px solid #ffac5a;
-        background-color: #ffe1c4 !important;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        gap: 6rem;
-        .bronzeContent {
-            width: min(300px, 100%);
-            text-align: center;
-            h1 {
-                font-family: 'Playfair Display';
-                color: #d57e21;
-            }
-            h3 {
-                color: #7d7267;
-            }
-            p {
-                text-align: justify;
-                margin-bottom: 5rem;
-            }
-            div {
-                border: 1px solid #ffac5a;
-                padding: 0.5rem;
-                border-radius: 10px;
+    .silverBronze {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+        .silver {
+            border: 2px solid silver;
+            background-color: #e9e9e9 !important;
+            .silverContent {
+                text-align: center;
+                h1 {
+                    font-family: 'Playfair Display';
+                    color: #898989;
+                }
+                h3 {
+                    color: #7d7267;
+                    background: linear-gradient(to right, #0f83db 0%, #ff4b0a 100%);
+                    background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    padding: 10px;
+                    border: 1px solid #898989;
+                    border-radius: 10px;
+                    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 1px -1px;
+                }
+                p {
+                    text-align: justify;
+                    margin-bottom: 2rem;
+                }
+                div {
+                    border: 1px solid silver;
+                    padding: 0.5rem;
+                    border-radius: 10px;
+                }
             }
         }
-        .bronzeSwiper {
-            padding: 1rem 5rem;
-            .swiper {
-                width: 321px;
-                height: 464px;
-            }
-
-            .swiper-slide {
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                border-radius: 18px;
-                font-size: 22px;
-                font-weight: bold;
-                color: #fff;
-            }
-            .swiper-slide:nth-child(1n) {
-                background: url('../../assets/gold/05.jpg');
-                background-size: 100% 100%;
-                box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
-                    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+        .bronze {
+            border: 2px solid #ffac5a;
+            background-color: #ffe1c4 !important;
+            .bronzeContent {
+                text-align: center;
+                h1 {
+                    font-family: 'Playfair Display';
+                    color: #d57e21;
+                }
+                h3 {
+                    color: #7d7267;
+                    background: linear-gradient(to right, #0f83db 0%, #ff4b0a 100%);
+                    background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    padding: 10px;
+                    border: 1px solid goldenrod;
+                    border-radius: 10px;
+                    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 1px -1px;
+                }
+                p {
+                    text-align: justify;
+                    margin-bottom: 2rem;
+                }
+                div {
+                    border: 1px solid #ffac5a;
+                    padding: 0.5rem;
+                    border-radius: 10px;
+                }
             }
         }
     }
@@ -346,7 +315,7 @@
 @media all and (min-width: 875px) {
     .reward {
         #alisa {
-            top: -10%;
+            top: -15%;
         }
     }
 }
@@ -368,7 +337,7 @@
             }
         }
         #alisa {
-            top: -3%;
+            top: -6%;
         }
     }
 }
@@ -381,7 +350,7 @@
             }
         }
         #alisa {
-            top: 0%;
+            top: -2%;
         }
     }
 }
@@ -445,6 +414,12 @@
                 width: 100%;
             }
         }
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .silverBronze {
+        grid-template-columns: repeat(1, 1fr) !important;
     }
 }
 
