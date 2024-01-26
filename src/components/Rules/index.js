@@ -11,10 +11,10 @@ function Rules() {
                 description="Quy tắc cơ bản cho cuộc thi. Còn có tuân thủ hay không thì chúng tôi cơ bản không để ý!"
                 titleType="type3"
             />
-            <div className="item">
+            <div className="">
                 {allRules.map((rule, index) => {
                     return (
-                        <div key={index} className="rule">
+                        <div key={index} className="item">
                             <strong>{index + 1}.</strong> {rule}
                         </div>
                     )
