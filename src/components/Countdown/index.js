@@ -56,7 +56,7 @@ function Countdown({ targetDate }) {
 
                     <div className='timeInfo'>
                         <h4>━ Thời gian dự kiến ━</h4>
-                        <h2>19:00, 02/03/2024</h2>
+                        <h2>20:00, 02/03/2024</h2>
                         <p>Trên đây là thời gian cụ thể mà chúng tôi sẽ mở link bài thi để bắt đầu làm bài, lưu ý link bài thi này sẽ được công bố trước giờ làm bài 5 phút ở trên hai trang Facebook đã được đề cập. Thể lệ bài thi cũng sẽ được ghi cụ thể ở mục tiếp theo bên dưới (chỉ cần đọc mục đầu, những cái còn lại có thể bỏ qua). </p>
                         <p>Còn sau đây là thời gian đếm ngược cho đến lúc đó!</p>
                     </div>

@@ -24,7 +24,7 @@ function App() {
 
         <Introduction />
         <Committee />
-        <Countdown targetDate={"2024-03-02T19:00:00"} />
+        <Countdown targetDate={"2024-03-02T20:00:00"} />
         <Rules />
         <OutlineText content="TheMeoki & NaviRanobe" />
         <Reward />

@@ -53,6 +53,9 @@
         .inner {
             .innerContent {
                 grid-template-columns: 100%;
+                h1 {
+                    font-size: 2.5rem;
+                }
             }
         }
     }
