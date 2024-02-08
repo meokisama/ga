@@ -9,7 +9,7 @@ function Footer() {
             <div>
                 <p>©Background is based on layout of Kadokawa Sneaker Bunko 35th Anniversary</p>
                 <img src={logo} alt='Ranobe Giveaway Booster' />
-                <p>©Meoki 2024</p>
+                <p>©Ranobe Giveaway Booster 2024</p>
             </div>
         </div>
     );
