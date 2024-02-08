@@ -1,3 +1,4 @@
+import { useState, useEffect } from 'react';
 import { DownloadOutlined } from '@ant-design/icons';
 import { Button } from 'antd';
 
@@ -41,6 +42,27 @@ function KonoRano() {
         }
     ]
 
+    const [size, setSize] = useState("large");
+    const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+    useEffect(() => {
+        const handleResize = () => {
+            setWindowWidth(window.innerWidth);
+            if (window.innerWidth < 600)
+                setSize("default");
+            else if (window.innerWidth < 500)
+                setSize("small");
+            else setSize("large");
+        };
+
+        window.addEventListener('resize', handleResize);
+        handleResize()
+
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []);
+
     return (
         <div className="wrapper konorano">
             <SectionTitle
@@ -57,10 +79,10 @@ function KonoRano() {
                                 <h2>Kono Light Novel ga Sugoi! {item.year}</h2>
                                 <p>Nhấn vào nút tương ứng cho bản Nhật hoặc Việt để truy cập nội dung.</p>
                                 <div className='downloadBtn'>
-                                    <Button type="primary" icon={<DownloadOutlined />} size="large" onClick={() => window.open(item.url, "_blank")}>
+                                    <Button type="primary" icon={windowWidth < 500 ? null : <DownloadOutlined />} size={size} onClick={() => window.open(item.url, "_blank")}>
                                         Bản gốc tiếng Nhật (EPUB)
                                     </Button>
-                                    <Button type="primary" icon={<DownloadOutlined />} size="large" onClick={() => window.open(item.vi, "_blank")}>
+                                    <Button type="primary" icon={windowWidth < 500 ? null : <DownloadOutlined />} size={size} onClick={() => window.open(item.vi, "_blank")}>
                                         Bản dịch tiếng Việt (Sheet)
                                     </Button>
                                 </div>
